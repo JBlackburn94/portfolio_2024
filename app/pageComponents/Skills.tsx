@@ -1,3 +1,4 @@
+import { FaLocationArrow, FaMapPin } from "react-icons/fa";
 import TechStackCard from "./TechStackCard";
 
 export default function Skills() {
@@ -6,6 +7,10 @@ export default function Skills() {
       <div className="min-h-[80vh] w-full md:w-[70%] overflow-hidden py-5 px-5 md:px-10">
         <h1 className="text-[2.9rem] font-black">Hello!</h1>
         <h2 className="text-[2.488rem] font-semibold">I&apos;m Jason.</h2>
+        <span className="flex items-center gap-2">
+          <p className="text-[1.5rem]">United Kingdom</p>
+          <FaMapPin className="text-[1.5rem] text-red-500" />
+        </span>
         <div className="font-light leading-8">
           <p>
             A highly motivated Software Developer, specialising in crafting

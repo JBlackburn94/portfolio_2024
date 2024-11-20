@@ -1,6 +1,7 @@
 import Hero from "./pageComponents/Hero";
 import Projects from "./pageComponents/Projects";
 import Skills from "./pageComponents/Skills";
+import Contact from "./pageComponents/Contact";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 }
