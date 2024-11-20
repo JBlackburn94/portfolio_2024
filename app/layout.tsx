@@ -7,7 +7,7 @@ const monaSans = localFont({
   variable: "--font-mona-sans",
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Jason Blackburn - Frontend Developer Portfolio",
   description:
     "Explore the portfolio of Jason Blackburn, a skilled Frontend Developer specializing in Next.js, React, TypeScript, JavaScript, TailwindCSS, and GSAP. Discover cutting-edge web applications crafted with precision and creativity.",
@@ -27,7 +27,7 @@ export const metadata = {
     "UK developer",
     "JasonBlackburn.co.uk",
   ],
-  author: "Jason Blackburn",
+  authors: [{ name: "Jason Blackburn" }],
   openGraph: {
     title: "Jason Blackburn - Frontend Developer Portfolio",
     description:
