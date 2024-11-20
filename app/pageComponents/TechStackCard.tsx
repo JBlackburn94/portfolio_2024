@@ -93,7 +93,7 @@ const skillsBackend = [
 
 export default function TechStackCard() {
   return (
-    <div>
+    <>
       <Tabs defaultValue="account" className="w-[85vw] md:w-[400px]">
         <TabsList className="grid w-full grid-cols-2">
           <TabsTrigger value="account">Frontend</TabsTrigger>
@@ -146,6 +146,6 @@ export default function TechStackCard() {
           </Card>
         </TabsContent>
       </Tabs>
-    </div>
+    </>
   );
 }
