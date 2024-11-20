@@ -1,7 +1,5 @@
 import Image from "next/image";
 import heroBg from "../../public/profile-image.webp";
-import { Card } from "@/components/ui/card";
-import { MdMail } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 

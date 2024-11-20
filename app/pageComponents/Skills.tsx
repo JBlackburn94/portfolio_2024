@@ -1,4 +1,4 @@
-import { FaLocationArrow, FaMapPin } from "react-icons/fa";
+import { FaMapPin } from "react-icons/fa";
 import TechStackCard from "./TechStackCard";
 
 export default function Skills() {
