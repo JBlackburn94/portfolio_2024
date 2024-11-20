@@ -104,7 +104,8 @@ export default function TechStackCard() {
             <CardHeader>
               <CardTitle className="text-[2.986rem]">Frontend</CardTitle>
               <CardDescription>
-                Here are the current tools I'm using for frontend development.
+                Here are the current tools I&apos;m using for frontend
+                development.
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-2">
@@ -126,8 +127,8 @@ export default function TechStackCard() {
             <CardHeader>
               <CardTitle className="text-[2.986rem]">Backend</CardTitle>
               <CardDescription>
-                Here are the tools I'm currently using for backend development,
-                hosting and version control.
+                Here are the tools I&apos;m currently using for backend
+                development, hosting and version control.
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-2">
