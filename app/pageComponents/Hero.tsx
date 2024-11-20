@@ -5,12 +5,14 @@ import heroFore from "../../public/DSCF7348 copy.webp";
 export default function Hero() {
   return (
     <section className="h-screen overflow-hidden flex flex-col justify-center items-center text-white relative">
-      <div className="flex flex-col justify-start items-end text-right h-full w-full bg-black z-10 bg-opacity-30 py-[104px] md:py-10 px-5">
-        <h1 className="font-black uppercase text-[4rem] md:text-[7rem] leading-[50px] md:leading-[90px]">
+      <div className="flex flex-col justify-start items-end text-right h-full w-full bg-black z-10 bg-opacity-30 py-[90px] md:py-10 px-5">
+        <h1 className="font-black uppercase text-[3rem] md:text-[7rem] leading-[50px] md:leading-[90px]">
           Jason <br />
           Blackburn
         </h1>
-        <h2 className="font-thin text-[2rem] uppercase">Frontend Developer</h2>
+        <h2 className="font-thin text-[1.5rem] md:text-[2rem] uppercase">
+          Frontend Developer
+        </h2>
       </div>
       <Image
         src={heroFore}
