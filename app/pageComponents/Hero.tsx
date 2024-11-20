@@ -4,9 +4,9 @@ import heroFore from "../../public/DSCF7348 copy.webp";
 
 export default function Hero() {
   return (
-    <section className="h-screen overflow-hidden flex flex-col justify-center items-center text-white relative">
-      <div className="flex flex-col justify-start items-end text-right h-full w-full bg-black z-10 bg-opacity-30 py-[90px] md:py-10 px-5">
-        <h1 className="font-black uppercase text-[3rem] md:text-[7rem] leading-[50px] md:leading-[90px]">
+    <section className="h-screen flex flex-col justify-center items-center text-white relative">
+      <div className="flex flex-col justify-start items-end text-right h-full w-full bg-black z-10 bg-opacity-50 py-[90px] md:py-10 px-5">
+        <h1 className="font-black uppercase text-[3rem] md:text-[7rem] leading-[50px] md:leading-[90px] sticky top-0">
           Jason <br />
           Blackburn
         </h1>
