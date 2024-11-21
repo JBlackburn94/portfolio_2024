@@ -38,7 +38,7 @@ export default function Projects() {
           description="Beauty School is a UK-based band. I designed and developed their website to serve as a central hub for fans, offering the latest news, merchandise, tickets, and music all in one place."
           buttonLinks={{
             github: "https://github.com/JBlackburn94/bs-web",
-            live: "web-psi.vercel.app",
+            live: "https://bsweb-psi.vercel.app",
           }}
         />
       </div>
