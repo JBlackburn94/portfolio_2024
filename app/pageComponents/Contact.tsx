@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <section className="my-5 mx-5 md:mx-10 py-5 px-5 md:px-10">
+    <section id="contact" className="my-5 mx-5 md:mx-10 py-5 px-5 md:px-10">
       <div className="flex flex-col justify-center items-center gap-7 mt-5">
         <div className="flex flex-col justify-start items-center w-[85vw] md:w-[40vw]">
           <div className="h-[250px] w-[250px] overflow-hidden rounded-full relative">

@@ -3,7 +3,10 @@ import TechStackCard from "./TechStackCard";
 
 export default function Skills() {
   return (
-    <section className="flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-10 min-h-screen overflow-hidden my-5 mx-5 md:mx-10">
+    <section
+      id="about"
+      className="flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-10 min-h-screen overflow-hidden my-5 mx-5 md:mx-10"
+    >
       <div className="min-h-[80vh] w-full md:w-[70%] overflow-hidden py-5 px-5 md:px-10">
         <h1 className="text-[2.9rem] font-black">Hello!</h1>
         <h2 className="text-[2.488rem] font-semibold">I&apos;m Jason.</h2>

@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   return (
-    <section className="my-5 mx-5 md:mx-10 py-5 px-5 md:px-10">
+    <section id="projects" className="my-5 mx-5 md:mx-10 py-5 px-5 md:px-10">
       <h1 className="font-black text-[2.986rem]">Recent Projects.</h1>
       <div className="flex flex-wrap justify-center lg:justify-start items-start gap-7 w-full mt-5">
         <ProjectCard
